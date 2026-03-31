@@ -1,0 +1,101 @@
+{
+  "incubator-brooklyn": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "incubator-druid": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "systemml": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "oozie": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "apex-malhar": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "ode": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "incubator-gobblin": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "servicecomb-pack": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "falcon": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "myfaces-extcdi": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "incubator-pinot": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "brooklyn-library": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "deltaspike": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "incubator-iotdb": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "apex-core": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "myfaces-trinidad": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "incubator-shardingsphere": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "incubator-dolphinscheduler": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "incubator-taverna-language": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "_selected": 71,
+  "_pairs_done": 71,
+  "_trained": true,
+  "_eval_ollama": true
+}

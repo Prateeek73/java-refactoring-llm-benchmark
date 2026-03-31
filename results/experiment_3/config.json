@@ -1,0 +1,33 @@
+{
+  "experiment": 3,
+  "config": {
+    "name": "library_repos_69",
+    "description": "69 commits across 19 Apache library repos",
+    "repos": {
+      "incubator-brooklyn": 5,
+      "incubator-druid": 4,
+      "systemml": 2,
+      "oozie": 4,
+      "apex-malhar": 1,
+      "ode": 4,
+      "incubator-gobblin": 1,
+      "servicecomb-pack": 1,
+      "falcon": 1,
+      "myfaces-extcdi": 5,
+      "incubator-pinot": 1,
+      "brooklyn-library": 2,
+      "deltaspike": 2,
+      "incubator-iotdb": 4,
+      "apex-core": 2,
+      "myfaces-trinidad": 25,
+      "incubator-shardingsphere": 2,
+      "incubator-dolphinscheduler": 2,
+      "incubator-taverna-language": 3
+    },
+    "selection": "filtered"
+  },
+  "total_commits": 71,
+  "mode": "ollama",
+  "pass_k": 1,
+  "started": "2026-03-30 04:02:25"
+}

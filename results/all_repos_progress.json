@@ -1,0 +1,317 @@
+{
+  "camel": {
+    "cloned": true,
+    "eval_ollama": true,
+    "eval_lora": true,
+    "rminer": true,
+    "scanned": true,
+    "pairs_ready": true,
+    "rminer_verified": true,
+    "scan_verified": true,
+    "pairs_verified": true
+  },
+  "commons-lang": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true,
+    "pairs_ready": true,
+    "eval_ollama": true,
+    "rminer_verified": true,
+    "scan_verified": true,
+    "pairs_verified": true
+  },
+  "commons-io": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true,
+    "pairs_ready": true,
+    "eval_ollama": true,
+    "rminer_verified": true,
+    "scan_verified": true,
+    "pairs_verified": true
+  },
+  "gson": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true,
+    "pairs_ready": true,
+    "eval_ollama": true,
+    "rminer_verified": true,
+    "scan_verified": true,
+    "pairs_verified": true
+  },
+  "incubator-shardingsphere": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "incubator-dolphinscheduler": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "incubator-taverna-language": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "hadoop-ozone": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "activemq": {
+    "cloned": true
+  },
+  "accumulo": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "james-project": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "openmeetings": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "jmeter": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "skywalking": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true
+  },
+  "jclouds": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "qpid-jms-amqp-0-x": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "attic-polygene-java": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "incubator-brooklyn": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "incubator-druid": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true
+  },
+  "systemml": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true
+  },
+  "oozie": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "apex-malhar": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "ode": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "incubator-gobblin": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "servicecomb-pack": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "falcon": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "myfaces-extcdi": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "incubator-pinot": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "brooklyn-library": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "deltaspike": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "incubator-iotdb": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "apex-core": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  },
+  "myfaces-trinidad": {
+    "cloned": true,
+    "rminer": true,
+    "rminer_verified": true,
+    "scanned": true,
+    "scan_verified": true,
+    "pairs_ready": true,
+    "pairs_verified": true,
+    "eval_ollama": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "camel": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "_selected": 20,
+  "_pairs_done": 20,
+  "_evosuite_done": 0,
+  "_trained": true,
+  "_eval_ollama": true,
+  "_eval_lora": true
+}

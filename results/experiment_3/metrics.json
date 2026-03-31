@@ -1,0 +1,32 @@
+{
+  "Ollama zero-shot": {
+    "n": 71,
+    "compile_rate": 11.267605633802818,
+    "compiled": 8,
+    "median_srr": 44.8463687150838,
+    "mean_srr": 43.437552377785835,
+    "srr_positive_rate": 89.0625,
+    "median_test_pass": null,
+    "n_with_tests": 0
+  },
+  "Cordeiro CoT+GPT4": {
+    "n": 5194,
+    "compile_rate": null,
+    "compiled": null,
+    "median_srr": 4.76,
+    "mean_srr": null,
+    "srr_positive_rate": null,
+    "median_test_pass": null,
+    "n_with_tests": 0
+  },
+  "Cordeiro CoT+LLaMA3": {
+    "n": 5194,
+    "compile_rate": null,
+    "compiled": null,
+    "median_srr": 15.15,
+    "mean_srr": null,
+    "srr_positive_rate": null,
+    "median_test_pass": null,
+    "n_with_tests": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "LoRA fine-tuned": {
+    "n": 100,
+    "compile_rate": 2.0,
+    "compiled": 2,
+    "median_srr": 53.46602608098833,
+    "mean_srr": 54.88166204757167,
+    "srr_positive_rate": 98.4375,
+    "median_test_pass": null,
+    "n_with_tests": 0
+  },
+  "Cordeiro CoT+GPT4": {
+    "n": 5194,
+    "compile_rate": null,
+    "compiled": null,
+    "median_srr": 4.76,
+    "mean_srr": null,
+    "srr_positive_rate": null,
+    "median_test_pass": null,
+    "n_with_tests": 0
+  },
+  "Cordeiro CoT+LLaMA3": {
+    "n": 5194,
+    "compile_rate": null,
+    "compiled": null,
+    "median_srr": 15.15,
+    "mean_srr": null,
+    "srr_positive_rate": null,
+    "median_test_pass": null,
+    "n_with_tests": 0
+  }
+}

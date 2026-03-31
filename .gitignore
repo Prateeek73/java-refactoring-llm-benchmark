@@ -1,8 +1,73 @@
+# Virtual environments
 venv/
+.venv
+
+# Python cache
 __pycache__/
 *.pyc
-data/camel/
+*.pyo
+*.egg-info/
+
+# Gradio
+.gradio/
+
+# Large data (re-generate with scripts)
+data/*/
+data/pairs/
+data/smells/
+data/evosuite_tests/
+data/finetune_dataset/
+data/*_pairs/
+data/*.jsonl
+data/*.csv
+data/*.json
+
+# Model weights (too large for git)
 models/
+
+# Logs
 logs/
-*.jar
+*.log
+
+# Tool binaries (download separately)
+tools/*.jar
+tools/RefactoringMiner-*/
+tools/DesigniteJava*/
+tools/*-deps/
+tools/evosuite*/
+
+# EvoSuite outputs
+evosuite-report/
+evosuite-tests/
+
+# Experiment large artifacts (regenerate with run_experiment.py)
+results/experiment_*/pairs/
+results/experiment_*/finetune_dataset/
+results/experiment_*/lora_model/
+results/*/pairs/
+results/*/finetune_dataset/
+results/*/lora_model/
+
+# Keep results JSON files (metrics, partial results, configs)
+# but exclude cloned repos in results
+results/apex-*/
+results/brooklyn-*/
+results/deltaspike/
+results/incubator-*/
+
+# Build artifacts
 *.zip
+*.tar.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude internal
+.claude/

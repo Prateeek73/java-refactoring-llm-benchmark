@@ -1,0 +1,16 @@
+{
+  "experiment": 1,
+  "config": {
+    "name": "camel_random_20",
+    "description": "20 random Camel commits (structural refactorings)",
+    "repos": {
+      "camel": 20
+    },
+    "selection": "random",
+    "seed": 42
+  },
+  "total_commits": 20,
+  "mode": "both",
+  "pass_k": 1,
+  "started": "2026-03-30 12:12:29"
+}

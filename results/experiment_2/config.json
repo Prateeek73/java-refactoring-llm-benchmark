@@ -1,0 +1,15 @@
+{
+  "experiment": 2,
+  "config": {
+    "name": "camel_filtered_100",
+    "description": "100 filtered Camel commits (high-signal structural, ranked by smell richness)",
+    "repos": {
+      "camel": 100
+    },
+    "selection": "filtered"
+  },
+  "total_commits": 100,
+  "mode": "lora",
+  "pass_k": 1,
+  "started": "2026-03-30 06:25:57"
+}

@@ -1,0 +1,11 @@
+{
+  "camel": {
+    "cloned": true,
+    "rminer": true,
+    "scanned": true
+  },
+  "_selected": 100,
+  "_pairs_done": 100,
+  "_eval_ollama": true,
+  "_trained": true
+}
