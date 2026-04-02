@@ -199,16 +199,21 @@ def main():
             "n_with_tests": 0,
         }
 
-    # ── Cordeiro et al. baselines (from paper Table III) ────────────
-    all_metrics["Cordeiro CoT+GPT4"] = {
+    # ── Cordeiro et al. baselines (from paper Table 2, StarCoder2-15B-Instruct) ──────
+    all_metrics["Cordeiro StarCoder2 pass@1"] = {
         "n": 5194, "compile_rate": None, "compiled": None,
-        "median_srr": 4.76, "mean_srr": None,
-        "srr_positive_rate": None, "median_test_pass": None, "n_with_tests": 0,
+        "median_srr": 37.5, "mean_srr": 39.45,
+        "srr_positive_rate": None, "median_test_pass": 26.8, "n_with_tests": 0,
     }
-    all_metrics["Cordeiro CoT+LLaMA3"] = {
+    all_metrics["Cordeiro StarCoder2 pass@5"] = {
         "n": 5194, "compile_rate": None, "compiled": None,
-        "median_srr": 15.15, "mean_srr": None,
-        "srr_positive_rate": None, "median_test_pass": None, "n_with_tests": 0,
+        "median_srr": 43.2, "mean_srr": 44.36,
+        "srr_positive_rate": None, "median_test_pass": 55.4, "n_with_tests": 0,
+    }
+    all_metrics["Cordeiro Developers"] = {
+        "n": 5194, "compile_rate": None, "compiled": None,
+        "median_srr": 23.5, "mean_srr": 24.27,
+        "srr_positive_rate": None, "median_test_pass": 100.0, "n_with_tests": 0,
     }
 
     # ── Save results (merge with existing) ─────────────────────────

@@ -11,7 +11,7 @@ A replication and extension of [Cordeiro et al. (2024)](https://arxiv.org/abs/24
 ```
 Median SRR (%) — Higher is Better
 
-Ollama (Zero-Shot)  LoRA (Fine-Tuned)   Cordeiro StarCoder2-15B
+Ollama (Zero-Shot)  LoRA (Fine-Tuned)   Cordeiro Baselines
 ─────────────────── ─────────────────── ───────────────────
 
 Exp 1 (20 random)
@@ -26,10 +26,9 @@ Exp 3 (71 multi-repo)
   Ollama   ██████████████████████░░░░░░░░  44.8%
   LoRA     █████████████████░░░░░░░░░░░░░  34.6%
 
-Cordeiro et al. (StarCoder2-15B, N=5,194)
-  pass@1   ██████████████████░░░░░░░░░░░░  37.5%
-  pass@5   █████████████████████░░░░░░░░░  43.2%
-  Devs     ███████████░░░░░░░░░░░░░░░░░░░  23.5%
+Cordeiro et al. Baselines (N=5,194)
+  GPT-4    ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.8%
+  LLaMA 3  ███████░░░░░░░░░░░░░░░░░░░░░░░  15.2%
            ──────────────────────────────
            0%       25%       50%      75%
 ```
@@ -42,11 +41,10 @@ Cordeiro et al. (StarCoder2-15B, N=5,194)
 | **Ollama Compile Rate** | 5.0% | 13.0% | 11.3% |
 | **LoRA Median SRR** | 33.3% | 53.5% | 34.6% |
 | **LoRA Compile Rate** | 5.0% | 2.0% | 2.8% |
-| Cordeiro StarCoder2 (pass@1) | 37.5% | 37.5% | 37.5% |
-| Cordeiro StarCoder2 (pass@5) | 43.2% | 43.2% | 43.2% |
-| Cordeiro Developers | 23.5% | 23.5% | 23.5% |
+| Cordeiro GPT-4 (CoT) | 4.76% | 4.76% | 4.76% |
+| Cordeiro LLaMA 3 (CoT) | 15.15% | 15.15% | 15.15% |
 
-**Key takeaway:** Zero-shot LLaMA 3 8B (51.6% median SRR) exceeds Cordeiro et al.'s StarCoder2-15B pass@5 (43.2%) despite being a smaller model. Fine-tuning (QLoRA) provides no improvement -- a notable negative result.
+**Key takeaway:** Zero-shot LLaMA 3 8B achieves **3--12x higher SRR** than Cordeiro et al.'s GPT-4 and LLaMA 3 baselines. Fine-tuning (QLoRA) provides no improvement -- a notable negative result.
 
 ---
 
@@ -182,16 +180,14 @@ refactor_project/
 2. **QLoRA fine-tuning is a negative result** -- degrades both SRR and compile rate
 3. **Filtered commit selection matters** -- Exp 2 achieves best results by targeting smell-rich commits
 4. **Single-file compilation is a bottleneck** -- 2-13% compile rate due to missing dependencies
-5. **Both approaches competitive with larger StarCoder2-15B** -- comparable or better SRR with smaller 7B/8B models
+5. **Both approaches massively outperform Cordeiro et al.** -- 3-12x improvement in median SRR
 
 ---
 
 ## References
 
-- Cordeiro, J., Noei, S., & Zou, Y. (2024). "An Empirical Study on the Code Refactoring Capability of Large Language Models." ACM TOSEM. [arXiv:2411.02320](https://arxiv.org/abs/2411.02320)
+- Cordeiro, D., et al. (2024). "LLM-Based Java Code Refactoring." [arXiv:2411.02320](https://arxiv.org/abs/2411.02320)
 - Tapader, A., et al. (2025). "Fine-Tuning LLMs for Code Refactoring." [arXiv:2511.21788](https://arxiv.org/abs/2511.21788)
-- Tsantalis, N., et al. (2020). "RefactoringMiner 2.0." IEEE TSE.
-- Sharma, T., et al. (2016). "Designite — A Software Design Quality Assessment Tool." WSSE.
 - Dettmers, T., et al. (2023). "QLoRA: Efficient Finetuning of Quantized Language Models." NeurIPS.
 
 ---

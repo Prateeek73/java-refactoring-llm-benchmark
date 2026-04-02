@@ -1,0 +1,4 @@
+,Training Samples,Avg Instruction Len,Avg Response Len,Unique Refactor Types,LoRA Rank (r),LoRA Alpha,Dropout
+Random,19.0,3105,3012,10.0,16.0,32.0,0.05
+Filtered,100.0,3112,3012,33.0,16.0,32.0,0.05
+Mixed,71.0,3115,3012,35.0,16.0,32.0,0.05

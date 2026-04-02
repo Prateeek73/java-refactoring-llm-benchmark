@@ -1,0 +1,58 @@
+{
+  "model_comparison": {
+    "Samples": {
+      "LoRA Fine-tuned": 191,
+      "Zero-Shot (Ollama)": 191
+    },
+    "Compiled": {
+      "LoRA Fine-tuned": 5,
+      "Zero-Shot (Ollama)": 22
+    },
+    "Compile Rate": {
+      "LoRA Fine-tuned": 3.0,
+      "Zero-Shot (Ollama)": 12.0
+    },
+    "Total Before": {
+      "LoRA Fine-tuned": 16408,
+      "Zero-Shot (Ollama)": 17707
+    },
+    "Total After": {
+      "LoRA Fine-tuned": 9205,
+      "Zero-Shot (Ollama)": 9611
+    },
+    "Mean SRR": {
+      "LoRA Fine-tuned": 49.07,
+      "Zero-Shot (Ollama)": 51.37
+    },
+    "Median SRR": {
+      "LoRA Fine-tuned": 43.1,
+      "Zero-Shot (Ollama)": 51.61
+    },
+    "Std SRR": {
+      "LoRA Fine-tuned": 37.31,
+      "Zero-Shot (Ollama)": 35.93
+    },
+    "Reduction %": {
+      "LoRA Fine-tuned": 43.9,
+      "Zero-Shot (Ollama)": 45.7
+    }
+  },
+  "by_experiment": {
+    "lora": {
+      "Random": 47.6884078931237,
+      "Filtered": 54.88166204757167,
+      "Mixed": 43.63347770287916
+    },
+    "ollama": {
+      "Random": 50.92305030475446,
+      "Filtered": 56.51651818403499,
+      "Mixed": 43.437552377785835
+    }
+  },
+  "paired_analysis": {
+    "total_pairs": 191,
+    "lora_wins": 32,
+    "zeroshot_wins": 159,
+    "mean_srr_diff": -0.22697780264267547
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "base_model": "codellama/CodeLlama-7b-Instruct-hf",
+  "peft_type": "LORA",
+  "experiments": {
+    "Random": {
+      "training_samples": 19,
+      "lora_config": {
+        "r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "target_modules": [
+          "o_proj",
+          "k_proj",
+          "v_proj",
+          "q_proj"
+        ]
+      },
+      "training_stats": {
+        "avg_instruction_len": 3105.4210526315787,
+        "avg_response_len": 3012.0,
+        "refactoring_types": {
+          "Extract Variable": 7,
+          "Extract Method": 3,
+          "Extract Variable, Extract Method": 2,
+          "Move Class": 1,
+          "Extract Class, Move Attribute": 1,
+          "Inline Variable, Move Attribute": 1,
+          "Extract Interface": 1,
+          "Inline Method": 1,
+          "Push Down Method, Push Down Attribute": 1,
+          "Pull Up Method, Extract Interface": 1
+        }
+      }
+    },
+    "Filtered": {
+      "training_samples": 100,
+      "lora_config": {
+        "r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "target_modules": [
+          "o_proj",
+          "k_proj",
+          "q_proj",
+          "v_proj"
+        ]
+      },
+      "training_stats": {
+        "avg_instruction_len": 3111.82,
+        "avg_response_len": 3012.0,
+        "refactoring_types": {
+          "Extract Method": 20,
+          "Extract Variable": 19,
+          "Extract Variable, Extract Method": 14,
+          "Inline Variable": 6,
+          "Move Attribute": 4,
+          "Extract And Move Method": 4,
+          "Extract Interface": 3,
+          "Move Method": 2,
+          "Extract And Move Method, Extract Method": 2,
+          "Move Attribute, Extract Class, Move Method": 2,
+          "Inline Variable, Extract Method": 2,
+          "Inline Method, Extract Variable, Move Class, Extract Class, Move Method, Inline Variable, Move Attribute": 1,
+          "Extract And Move Method, Extract Variable, Extract Method": 1,
+          "Extract And Move Method, Inline Variable, Extract Variable": 1,
+          "Pull Up Attribute, Extract Variable, Extract Superclass, Extract Method": 1,
+          "Move Attribute, Extract And Move Method, Extract Class": 1,
+          "Move Attribute, Inline Variable": 1,
+          "Pull Up Method, Extract Class, Move Method": 1,
+          "Move Class": 1,
+          "Move Attribute, Extract And Move Method, Extract Variable": 1,
+          "Move Method, Extract Method": 1,
+          "Inline Method, Extract Method": 1,
+          "Move Method, Extract Variable, Extract Method": 1,
+          "Pull Up Method, Inline Method, Extract Variable, Extract Method": 1,
+          "Pull Up Attribute, Pull Up Method, Extract Superclass, Move Method": 1,
+          "Inline Method": 1,
+          "Extract Class, Extract Superclass, Extract Method, Pull Up Attribute, Pull Up Method, Move Attribute, Extract Interface": 1,
+          "Move Attribute, Move Class, Extract Class": 1,
+          "Move Attribute, Extract Class": 1,
+          "Pull Up Method, Extract Method": 1,
+          "Extract And Move Method, Extract Interface, Extract Method": 1,
+          "Extract Variable, Inline Variable, Inline Method, Move Class": 1,
+          "Extract And Move Method, Extract Class, Move Method": 1
+        }
+      }
+    },
+    "Mixed": {
+      "training_samples": 71,
+      "lora_config": {
+        "r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "target_modules": [
+          "v_proj",
+          "q_proj",
+          "k_proj",
+          "o_proj"
+        ]
+      },
+      "training_stats": {
+        "avg_instruction_len": 3114.5915492957747,
+        "avg_response_len": 3012.0,
+        "refactoring_types": {
+          "Extract Method": 12,
+          "Extract Variable": 10,
+          "Move Class": 7,
+          "Inline Variable, Extract Method": 4,
+          "Extract And Move Method": 4,
+          "Inline Variable": 3,
+          "Extract Variable, Extract Method": 2,
+          "Inline Variable, Extract Variable": 2,
+          "Inline Method, Extract Method": 1,
+          "Extract And Move Method, Extract Method": 1,
+          "Extract Class, Extract Variable, Move Attribute, Move Method": 1,
+          "Inline Variable, Inline Method, Extract Class, Move Method, Extract Method": 1,
+          "Extract Superclass": 1,
+          "Move Class, Pull Up Method": 1,
+          "Extract And Move Method, Extract Variable, Inline Method, Extract Class, Move Method": 1,
+          "Inline Method": 1,
+          "Extract Variable, Move Attribute, Move Method": 1,
+          "Extract Interface, Extract Method": 1,
+          "Extract Class, Move Method, Extract Method": 1,
+          "Move Class, Extract Variable, Extract Superclass": 1,
+          "Move Class, Extract Variable": 1,
+          "Extract Superclass, Move Attribute": 1,
+          "Move Class, Extract Class, Move Method, Extract Method, Move Attribute": 1,
+          "Inline Variable, Extract And Move Method, Inline Method, Extract Method": 1,
+          "Move Class, Inline Variable, Extract Method": 1,
+          "Inline Variable, Push Down Method, Extract And Move Method, Pull Up Method, Extract Class, Move Method, Push Down Attribute": 1,
+          "Extract Class, Move Attribute, Extract And Move Method": 1,
+          "Extract Variable, Move Method, Extract Method": 1,
+          "Extract Class, Extract Variable, Move Method": 1,
+          "Inline Variable, Extract And Move Method, Extract Method": 1,
+          "Extract Interface": 1,
+          "Move Attribute, Extract Method": 1,
+          "Move Class, Extract Variable, Extract And Move Method, Extract Method": 1,
+          "Inline Variable, Extract And Move Method, Move Method, Extract Method, Move Attribute": 1,
+          "Extract Variable, Move Attribute": 1
+        }
+      }
+    }
+  }
+}
